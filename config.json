@@ -3,13 +3,13 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "",
-    "link": "",
+    "file": "https://github.com/CaptainMoZzilla",
+    "link": "https://github.com/CaptainMoZzilla",
     "text": "Andrew Volkov"
   },
   "text": {
-    "more": "",
-    "intro": "",
+    "more": "The node size corresponds to the weighted degree and the color of each node corresponds to the modularity class. The network includes 30262 telegrams channels(filtered by weighted degree \u003e 1), 53499 edges, and 211 clusters. ",
+    "intro": "A network linking 30k telegrams channels that refer to each other.",
     "title": "Subuniverse of telegram channels"
   },
   "legend": {
@@ -19,11 +19,11 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": "Label"
   },
   "sigma": {
